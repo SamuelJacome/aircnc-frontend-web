@@ -26,8 +26,10 @@ body, input, buttom{
   margin: 80px auto 0;
   max-width: 450px;
   width: 100%;
+  display: flex;
   flex-direction: column;
   align-items: center;
+
 
 }
 
@@ -55,6 +57,15 @@ body, input, buttom{
   color: #444;
   font-weight: bold;
   margin-bottom: 8px;
+}
+
+
+.content form label span{
+  font-weight: normal;
+  color:#999;
+  font-size:12px;
+
+
 }
 
 .content form input {
